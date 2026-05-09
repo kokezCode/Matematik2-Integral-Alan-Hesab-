@@ -1,13 +1,13 @@
 # Matematik-II: Belirli İntegral ile Alan Hesabı Projesi
 
-[cite_start]Bu proje, **Kırklareli Üniversitesi** Yazılım Mühendisliği Bölümü Matematik-II dersi kapsamında geliştirilmiştir[cite: 1, 31]. [cite_start]Proje, 10 farklı matematiksel fonksiyonun ve eğrinin sınırlandırdığı alanları **Simpson 1/3 Sayısal İntegral Yöntemi** kullanarak hesaplayan modüler bir C programıdır[cite: 32].
+Bu proje, **Kırklareli Üniversitesi** Yazılım Mühendisliği Bölümü Matematik-II dersi kapsamında geliştirilmiştir. Proje, 10 farklı matematiksel fonksiyonun ve eğrinin sınırlandırdığı alanları **Simpson 1/3 Sayısal İntegral Yöntemi** kullanarak hesaplayan modüler bir C programıdır.
 
 ##  Proje Özellikleri
 
-* [cite_start]**Dil:** Saf C Programlama Dili[cite: 5].
-* [cite_start]**Algoritma:** Yüksek doğruluk payına sahip **Simpson 1/3 Kuralı**[cite: 32].
+* **Dil:** Saf C Programlama Dili.
+* **Algoritma:** Yüksek doğruluk payına sahip **Simpson 1/3 Kuralı**.
 * **Görselleştirme:** Ek kütüphane gerektirmeyen, terminal tabanlı dinamik **ASCII Grafik Motoru**.
-* [cite_start]**Mühendislik Yaklaşımı:** "Clean Code" (Temiz Kod) prensiplerine uygun, struct yapıları ile modüler mimari[cite: 6].
+* **Mühendislik Yaklaşımı:** "Clean Code" (Temiz Kod) prensiplerine uygun, struct yapıları ile modüler mimari.
 * **Karşılaştırma:** Nümerik sonuçların analitik çözümlerle otomatik kıyaslanması.
 
 ##  Ele Alınan Problemler
@@ -15,15 +15,15 @@
 Program aşağıdaki 10 temel matematiksel problemi çözmektedir:
 
 1.  Parabol ve x-ekseni arası alan (f(x) = x^2 - 4).
-2.  Trigonometrik alan hesabı (f(x) = \sin(x)).
-3.  İki trigonometrik eğri arası alan (\sin(x) ve \cos(x)).
-4.  Karekök fonksiyonu ve yatay doğru arası alan (y = \sqrt{x}, y = 3).
+2.  Trigonometrik alan hesabı (f(x) = sin(x)).
+3.  İki trigonometrik eğri arası alan (sin(x) ve cos(x)).
+4.  Karekök fonksiyonu ve yatay doğru arası alan ( y = √x, y = 3).
 5.  İki parabol arasında kalan bölge (y = x^2-2 ve y = 3x-x^2).
 6.  Parabol ve teğet doğrusu arası alan (y = x^2 ve x=2 teğeti).
 7.  Polinom fonksiyonu kapalı bölgeleri (y = x^3 - x).
-8.  Çarpım fonksiyonu integrali (f(x) = x \cdot \sin(x)).
-9.  4. derece polinom ve teğet noktaları ($f(x) = x^2(x+3)^2$).
-10. Üstel fonksiyonlar arası alan (y = 7e^x ve $y = 3-2e^x$).
+8.  Çarpım fonksiyonu integrali (f(x) = x . sin(x)).
+9.  4. derece polinom ve teğet noktaları (f(x) = x^2(x+3)^2).
+10. Üstel fonksiyonlar arası alan (y = 7e^x ve y = 3-2e^x).
 
 ##  Kurulum ve Çalıştırma
 
